@@ -1,4 +1,10 @@
-# Commands
+# FreeCodeCamp - Relational Database
+
+## Certification Project - Build a Periodic Table Database
+
+This is one of the required projects to earn your certification. For this project, you will create Bash a script to get information about chemical elements from a periodic table database.
+
+## Commands
 
 ```sh
 psql --username=freecodecamp --dbname=periodic_table
@@ -11,8 +17,6 @@ pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
 ```sh
 psql -U postgres < periodic_table.sql
 ```
-
----
 
 ## Part 1: Fix the database
 
